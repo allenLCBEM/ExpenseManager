@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseList with empty message 1`] = `
+<div>
+  <p>
+    No expenses
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseList with expenses 1`] = `
+<div>
+  <ExpenseListItem
+    amount={100}
+    createdAt={0}
+    description="abc"
+    expenses={
+      Array [
+        Object {
+          "amount": 100,
+          "createdAt": 0,
+          "description": "abc",
+          "id": "1",
+          "note": "",
+        },
+        Object {
+          "amount": 200,
+          "createdAt": -345600000,
+          "description": "cde",
+          "id": "2",
+          "note": "",
+        },
+        Object {
+          "amount": 300,
+          "createdAt": 345600000,
+          "description": "efg",
+          "id": "3",
+          "note": "",
+        },
+      ]
+    }
+    id="1"
+    key="0"
+    note=""
+  />
+  <ExpenseListItem
+    amount={200}
+    createdAt={-345600000}
+    description="cde"
+    expenses={
+      Array [
+        Object {
+          "amount": 100,
+          "createdAt": 0,
+          "description": "abc",
+          "id": "1",
+          "note": "",
+        },
+        Object {
+          "amount": 200,
+          "createdAt": -345600000,
+          "description": "cde",
+          "id": "2",
+          "note": "",
+        },
+        Object {
+          "amount": 300,
+          "createdAt": 345600000,
+          "description": "efg",
+          "id": "3",
+          "note": "",
+        },
+      ]
+    }
+    id="2"
+    key="1"
+    note=""
+  />
+  <ExpenseListItem
+    amount={300}
+    createdAt={345600000}
+    description="efg"
+    expenses={
+      Array [
+        Object {
+          "amount": 100,
+          "createdAt": 0,
+          "description": "abc",
+          "id": "1",
+          "note": "",
+        },
+        Object {
+          "amount": 200,
+          "createdAt": -345600000,
+          "description": "cde",
+          "id": "2",
+          "note": "",
+        },
+        Object {
+          "amount": 300,
+          "createdAt": 345600000,
+          "description": "efg",
+          "id": "3",
+          "note": "",
+        },
+      ]
+    }
+    id="3"
+    key="2"
+    note=""
+  />
+</div>
+`;
