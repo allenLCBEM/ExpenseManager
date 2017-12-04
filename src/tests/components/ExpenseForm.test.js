@@ -72,7 +72,7 @@ test('should call onSubmit prop for valid form submission', () => {
         amount: expenses[0].amount,
         note: expenses[0].note,
         createdAt: expenses[0].createdAt
-    })
+    });
 });
 
 test('should set new date on date change', () => {
